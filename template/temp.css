@@ -1,0 +1,14 @@
+@charset "utf-8"; 
+/* DIVCSS5*/ 
+body, div,iframe, ul, ol, dl, dt, dd, li, dl, 
+h1, h2, h3, h4, table,th, td, input, button, select,
+ textarea {margin:0; padding:0;}
+
+ol, ul ,li{list-style: none;} 
+img {border: 0; vertical-align:middle;} 
+
+.clear{clear:both;height:1px;width:100%;
+ overflow:hidden; margin-top:-1px;} 
+a{color:#000000;text-decoration:none; }  
+a:hover{color:#F00;} 
+ 
