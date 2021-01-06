@@ -1,6 +1,6 @@
 {
   "name": "walker-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "quickTemplate",
   "main": "index.js",
   "scripts": {
