@@ -7,7 +7,7 @@ process.argv.slice(2).forEach(function (item){
     }
 })
 if(name == 'vue'){
-    fs.writeFileSync("./"+index+".vue", fs.readFileSync(__dirname+'/template/temp.vue','utf-8'));
+    fs.writeFileSync("./index.vue", fs.readFileSync(__dirname+'/template/temp.vue','utf-8'));
 }else {
     fs.writeFileSync("./"+name+".html", fs.readFileSync(__dirname+'/template/temp.html','utf-8'));
     fs.writeFileSync("./"+name+".js", fs.readFileSync(__dirname+'/template/temp.js','utf-8'));
